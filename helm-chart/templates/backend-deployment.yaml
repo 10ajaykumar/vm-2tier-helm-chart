@@ -19,7 +19,7 @@ spec:
             - containerPort: 5000
           env:
             - name: DB_HOST
-              value: "my-rds-instance.cg18aoey8fe4.us-east-1.rds.amazonaws.com"
+              value: "mysql-service"
               
             - name: DB_USER
               valueFrom:
