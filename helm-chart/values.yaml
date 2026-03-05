@@ -1,6 +1,6 @@
 frontend:
   deploymentname: frontend-deployment
-  replicas: 1
+  replicas: 3
   image: 10ajaykumar/frontend:1.0.0
   servicename: frontend-service
   type: LoadBalancer
