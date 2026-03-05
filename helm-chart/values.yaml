@@ -1,6 +1,5 @@
 namespace:
-  name: prod
-
+  name: 2tier
 
 frontend:
   deploymentname: frontend-deployment
