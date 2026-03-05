@@ -7,7 +7,7 @@ frontend:
 
 backend:
   deploymentname: backend-deployment
-  replicas: 1
+  replicas: 3
   image: 10ajaykumar/backend:1.0.0
   servicename: backend-service
 
