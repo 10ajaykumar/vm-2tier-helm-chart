@@ -1,22 +1,18 @@
 namespace:
   name: 2tier
-
 frontend:
   deploymentname: frontend-deployment
   replicas: 1
-  image: 10ajaykumar/frontend:1.0.0
+  image: 041124309752.dkr.ecr.us-east-1.amazonaws.com/frontend-repo:a68c90db83-76
   servicename: frontend-service
   type: LoadBalancer
-
 backend:
   deploymentname: backend-deployment
   replicas: 1
-  image: 10ajaykumar/backend:1.0.0
+  image: 041124309752.dkr.ecr.us-east-1.amazonaws.com/backend-repo:a68c90db83-76
   servicename: backend-service
-
 db:
   secrets:
     name: db-secrets
     username: dmlqYXk=
     password: UGFzc3dvcmQxMjM=
-
