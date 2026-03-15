@@ -3,13 +3,13 @@ namespace:
 frontend:
   deploymentname: frontend-deployment
   replicas: 1
-  image: 041124309752.dkr.ecr.us-east-1.amazonaws.com/frontend-repo:a68c90db83-76
+  image: 041124309752.dkr.ecr.us-east-1.amazonaws.com/frontend-repo:a68c90db83-83
   servicename: frontend-service
   type: LoadBalancer
 backend:
   deploymentname: backend-deployment
   replicas: 1
-  image: 041124309752.dkr.ecr.us-east-1.amazonaws.com/backend-repo:a68c90db83-76
+  image: 041124309752.dkr.ecr.us-east-1.amazonaws.com/backend-repo:a68c90db83-83
   servicename: backend-service
 db:
   secrets:
